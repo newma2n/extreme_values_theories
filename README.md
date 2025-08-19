@@ -37,7 +37,7 @@ Les notebooks sont le fruit d’un **travail de recherche personnel et autodidac
 
 ---
 
-### 4. `Inférence fréquentiste & bayésienne des rendements extrêmes dépendants.ipynb`
+### 4. `Inférence fréquentiste & bayésienne des rendements extrêmes dépendants.ipynb`-Inf´erence des rendements extrˆemes avec d´ependance (S&P 500) 
 
 * Étude des extrêmes sur les log-rendements journaliers du S&P 500 (1990–2025).
 * Ajustement d’une GEV sur blocs de maxima (fréquentiste).
