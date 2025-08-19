@@ -86,22 +86,29 @@ Les notebooks sont le fruit d’un **travail de recherche personnel et autodidac
 * **Objectif :** explorer visuellement et statistiquement l’impact de la copule sur la forme jointe et les risques extrêmes.
 
 
-## 📄 Rapport complémentaire
+## 📄 Rapport de recherche
 
-Un **rapport de recherche appliquée** accompagne ce travail :  
-📌 **"Inférence de l’indice de queue sous dépendance"**  
+Un **mémoire de recherche en théorie des valeurs extrêmes (EVT)** accompagne ce travail :  
+📌 **"Estimation en théorie des valeurs extrêmes"**  
 Il y est question de :
-- Méthodes classiques (Hill, Pickands) pour l’estimation de l’indice de Pareto ;
-- Limites de ces méthodes en présence de dépendance ;
-- Approche par blocs, loi GEV, et inférence robuste.
+- Fondements mathématiques : probabilités, statistiques d’ordre, quantiles extrêmes ;  
+- Lois de valeurs extrêmes (Fréchet, Weibull, Gumbel) et distribution généralisée GEV ;  
+- Distribution des excès et loi de Pareto généralisée (GPD) ;  
+- Méthodes d’estimation de l’indice de queue γ :  
+  - **Non paramétriques** (Hill, Pickands, moments) ;  
+  - **Paramétriques** (maximum de vraisemblance, méthode des moments) ;  
+- Analyse comparative des estimateurs et discussion sur leur précision et leurs limites.  
 
-📎 [Voir le rapport de recherche (PDF)](https://github.com/newma2n/extreme_values_theories/blob/main/Certificate_of_Completion.pdf)
+👉 Objectif : fournir une base théorique et pratique solide pour la modélisation du risque extrême, avec des applications directes en finance (VaR, ES), en assurance, hydrologie et climatologie.
+
+
+📎 [Voir le rapport de recherche (PDF)](https://github.com/newma2n/extreme_values_theories/blob/main/Rapport_de_recherche_EVT.pdf)
 
 ---
 
 ## 🎓 Certification
 
-Projet amorcé dans le cadre d’un cours spécialisé en détection d’anomalies :  
+Projet amorcé dans le cadre d’un cours spécialisé en détection d’anomalies en utilisant la théorie de svaleurs extrêmes:  
 **📘 Practical Anomaly Detection**  
 🏛️ *appliedAI Institute for AI gGmbH*
 
@@ -112,7 +119,7 @@ Projet amorcé dans le cadre d’un cours spécialisé en détection d’anomali
 ## 🛠️ Stack technique
 
 * Python, Jupyter, NumPy, SciPy, Matplotlib, Seaborn
-* `scipy.stats.genextreme`, `copulas`, `statsmodels`, `pymc3` (pour l’inférence bayésienne)
+* `scipy.stats.genextreme`, `copulas`, `statsmodels`
 * Visualisation interactive avec `matplotlib.pyplot` et `seaborn`
 
 ---
@@ -120,12 +127,21 @@ Projet amorcé dans le cadre d’un cours spécialisé en détection d’anomali
 ## 🙋‍♂️ Auteur
 
 **Hamidou Kane**  
-Étudiant en mathématiques appliquées, passionné par les modèles statistiques extrêmes et la modélisation de dépendance.
+🎯 **À propos**
+
+Étudiant en mathématiques appliquées, passionné par la modélisation statistique, l’analyse du risque et la finance quantitative.  
+Je suis **ouvert à toute collaboration académique ou appliquée**, notamment dans le cadre de **projets de recherche** ou d’une **thèse**, autour des thématiques suivantes :  
+- statistiques extrêmes,  
+- dépendance multivariée,  
+- méthodes bayésiennes,  
+- finance des risques.
+
+Je suis particulièrement motivé pour intégrer une **équipe de recherche ou un laboratoire** travaillant à l’interface entre mathématiques appliquées, données financières et phénomènes extrêmes.
+
 
 📧 [hamidou.kane19@inphb.ci](mailto:hamidou.kane19@inphb.ci)  
 📞 +33 7 80 84 75 92  
 🔗 [GitHub](https://github.com/newma2n)
 
 ---
-
-> Ce dépôt a vocation à appuyer une candidature en thèse ou stage de recherche en **statistiques extrêmes**, **copules**, ou **gestion des risques extrêmes**.
+.
