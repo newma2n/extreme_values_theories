@@ -130,15 +130,6 @@ Projet amorcé dans le cadre d’un cours spécialisé en détection d’anomali
 🎯 **À propos**
 
 Étudiant en mathématiques appliquées, passionné par la modélisation statistique, l’analyse du risque et la finance quantitative.  
-Je suis **ouvert à toute collaboration académique ou appliquée**, notamment dans le cadre de **projets de recherche** ou d’une **thèse**, autour des thématiques suivantes :  
-- statistiques extrêmes,  
-- dépendance multivariée,  
-- méthodes bayésiennes,  
-- finance des risques.
-
-Je suis particulièrement motivé pour intégrer une **équipe de recherche ou un laboratoire** travaillant à l’interface entre mathématiques appliquées, données financières et phénomènes extrêmes.
-
-
 📧 [hamidou.kane19@inphb.ci](mailto:hamidou.kane19@inphb.ci)  
 📞 +33 7 80 84 75 92  
 🔗 [GitHub](https://github.com/newma2n)
