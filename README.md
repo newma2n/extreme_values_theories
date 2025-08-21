@@ -19,11 +19,12 @@ Les notebooks sont le fruit d’un **travail de recherche personnel et autodidac
 
 ### 2. `univariatetimeseries.ipynb` — Prévision univariée et dépendance extrême via copules
 
-* Prétraitement et modélisation de séries temporelles via ARIMA, GARCH.
-* Validation par RMSE, MAPE, résidus.
-* Simulation de dépendance extrême à l’aide de copules (Gumbel, Clayton, Gaussienne).
-* Évaluation de la co-extrémalité via des simulations bivariées.
-* Résultat : modèle temporel tenant compte de la dépendance extrême.
+* Données : températures maximales journalières à China Lake (États-Unis). Construction des paires temporelles \((X_t, X_{t+1})\) puis transformation en pseudo-observations par rangs.
+* Ajustement de copules **gaussienne**, **Clayton**, **Gumbel** et **Frank** ; paramètres obtenus par inversion du tau de Kendall.
+* Évaluation de la qualité d’ajustement par la statistique de **Cramér–von Mises** sur les pseudo-observations, avec comparaison visuelle; sélection du modèle minimisant cette statistique.
+* Simulation **conditionnelle** (distribution de l’observation suivante sachant l’observation courante) afin d’analyser la **co-extrémalité temporelle** ;
+* Résultat :un modèle probabiliste intégrant explicitement la dépendance extrême.
+
 
 ---
 
